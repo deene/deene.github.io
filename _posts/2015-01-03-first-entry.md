@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: post
 title: First Entry
 categories: []
 tags: []
