@@ -95,5 +95,7 @@ At the end of this snippet, `jsonObjArray` is dumped into a json file named by y
 json.dump(jsonObjArray, myfile, indent=4)
 {% endhighlight %}
 
-In the next part, I will try to write about how to do simple word count on these downloaded data.
+In the next parts, I will try to see if I can find anything interesting from these data.
+
+
 
