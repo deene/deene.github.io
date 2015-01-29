@@ -46,14 +46,14 @@ I did a trick here during the counting by employing a `ignore_list` variable. Th
 ignore_list = ('of', 'the', 'a', 'to', 'and', 'in', 'be', 'as', 'that', 'this', 'can', 'for', 'have', 'is', 'with', 'by', 'are', 'used', 'such', 'on', 'it', 'at', 'from', 'high', 'has', 'an', 'which', '(', ')', ',', 'made', 'its', 'new', '2013', '2012', '.', 'two', '-', 'researchers', 'been', 'or', 'using', 'state', '2014', 'not', 'than', 'into', 'their', 'our', 'because', 'under', 'both', 'over', 'other', 'based', 'these', 'show' 'non', 'more', 'also', 'but', 'between', 'however', 'here', 'we', 'most', 'times', 'recent', 'small', 'long', 'usually', 'overall', 'leading', 'led', 'consistent', 'realize', 'existing', 'produced', 'relatively', 'current', 'role', 'one', 'could', 'make', 'will', 'may', 'now', 'use', 'how', 'due', 'all', 'up', 'was', 'were')
 {% endhighlight %}
 
-Now I have finished the counting work - the `summaryTable` is what I am looking for. It contains the frequency data of all the words that appears in the abstracts of the Nature Technology articles from 2006 to 2014.
+Now I have finished the counting work - the `summaryTable` is what I am looking for. It contains the frequency data of all the words that appears in the abstracts of the Nature Technology articles from 2006 to 2014. I plot below the top 10 most referenced words from 2006 and 2014.
 
-After I have got the big `summaryTable` containing all the word counts, I started to do some analysis on this table, looking forward to some interesting information.
+![TrendPlot](/assets/images/top10WordTrendNatureNano2006-14.png)
 
-First I just printed out the top 10 most referenced words from 2006 and 2014.
+![TrendTable](/assets/images/top10WordCountTableNatureNano2006-14.png)
 
-![image1](/assets/images/top10WordTrendNatureNano2006-14.png)
+From the figure we can see that the word 'spin' is rising significantly since 2008, and 'nanotube', on the other hand, has been declining dramatically since its peak in 2007. It seems the nature nanotechnology community has shifted the focus from those nanotubes to the spinning of electrons? Well, my poor carbon nanotubes...
 
-![image2](/assets/images/top10WordCountTableNatureNano2006-14.png)
+To my surprise, 'graphene' does not make it to the top 10. Isn't it the hottest topic over the last decade? Hmmm... Maybe the sample size is too small as I am just using the data from one journal. I will try to include more journal sources if I have time to write a crawler for all the major journals. I feel sad that not all of them has a available API to query from.
 
-From the figure we can see that the word 'spin' is rising significantly since 2008, and 'nanotube', on the other hand, has been declining dramatically since its peak in 2007. To my surprise, 'graphene' does not make it to the top 10. Isn't it the hottest topic over the last decade? Hmmm...
+In the next post, I will try to find out who are the most productive authors of Nature Nanotechnology. 

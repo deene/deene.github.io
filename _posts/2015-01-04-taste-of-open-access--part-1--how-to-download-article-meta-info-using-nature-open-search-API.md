@@ -95,7 +95,7 @@ At the end of this snippet, `jsonObjArray` is dumped into a json file named by y
 json.dump(jsonObjArray, myfile, indent=4)
 {% endhighlight %}
 
-In the next parts, I will try to see if I can find anything interesting from these data.
+In the following posts, I will see if I can find anything interesting from these data.
 
 
 
