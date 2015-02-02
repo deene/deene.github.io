@@ -23,7 +23,7 @@ for year in range(2006, 2014):
             continue
             
         for author in entry['dc:creator']:
-            author.replace('  ', ' ')
+            author = author.replace('  ', ' ')
             if not author in authorList.keys():
                 authorList[author] = 1
             else:
