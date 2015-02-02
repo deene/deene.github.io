@@ -56,4 +56,6 @@ And a bar chart can make things look beautiful:
 
 ![top10 authors](/assets/images/top10productiveAuthorsNNano.png)
 
+![top10 authors](/assets/images/top10productiveAuthorsNNanoBarStack.png)
+
 
