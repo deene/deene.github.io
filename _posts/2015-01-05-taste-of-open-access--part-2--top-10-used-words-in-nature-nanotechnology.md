@@ -56,4 +56,4 @@ From the figure we can see that the word 'spin' is rising significantly since 20
 
 To my surprise, 'graphene' does not make it to the top 10. Isn't it the hottest topic over the last decade? Hmmm... Maybe the sample size is too small as I am just using the data from one journal. I will try to include more journal sources if I have time to write a crawler for all the major journals. I feel sad that not all of them has a available API to query from.
 
-In the next post, I will try to find out who are the most productive authors of Nature Nanotechnology. 
+Anyway, playing with these data gives me a lot of fun. In the next post, I will try to find out who are the most productive authors of Nature Nanotechnology. 
