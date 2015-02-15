@@ -78,7 +78,7 @@ The response from the server (`content`) of each query looks like this:
 }
 {% endhighlight %}
 
-This object has a very complex structure. Luckily, there are just a few keys that matter at this stage. The `sru:numberOfRecords` key tells us how many results are found in this search, and the `entry` key contains the array of all the resulting articles if there is any. By checking these two keys, the article meta info can there for be extracted and stored in the `jsonObjArray` list:
+This object has a very complex structure. Luckily, there are just a few keys that matter at this case. The `sru:numberOfRecords` key tells us how many results are found in this search, and the `entry` key contains the array of all the resulting articles if there is any. By checking these two keys, the article meta info can there for be extracted and stored in the `jsonObjArray` list:
 
 {% highlight python %}
 if data['feed']['opensearch:totalResults'] != 0:
