@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Taste of Open Access - Part 1 - How to download article meta info using Nature Open Search API
+title: How to download article meta info using Nature Open Search API
 categories: []
-tags: []
+tags: [Open Access, Python, Data Analysis]
 published: True
 date: 2015-01-04 13:29:25
 ---

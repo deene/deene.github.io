@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Taste of Open Access - Part 2 - Top 10 used words in Nature Nanotechnology
+title: Top 10 used words in Nature Nanotechnology
 categories: []
-tags: []
+tags: [Open Access, Python, Data Analysis]
 published: True
 date: 2015-01-05 15:17:46
 ---
