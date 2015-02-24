@@ -7,11 +7,11 @@ published: True
 date: 2015-01-28 18:00:41
 ---
 
-In the [previous post]({% post_url 2015-01-05-taste-of-open-access--part-2--top-10-used-words-in-nature-nanotechnology %}), I have the downloaded all the meta information from Nature's [Open Search API](http://www.nature.com/developers/documentation/api-references/opensearch-api/) and saved them as json object arrays. And I have also counted the top 10 most used key words from these info. Now I would like to find out who are the most productive authors in Nature Nanotechnology.
+In the [previous post]({% post_url 2015-01-05-top-10-used-words-in-nature-nanotechnology %}), I have the downloaded all the meta information from Nature's [Open Search API](http://www.nature.com/developers/documentation/api-references/opensearch-api/) and saved them as json object arrays. And I have also counted the top 10 most used key words from these info. Now I would like to find out who are the most productive authors in Nature Nanotechnology.
 
 As I have already got the meta data in hand, the mission is quite easy. I just load all the json files and search for the `dc:creators` keys where stores all the author names, and make sure that the `["prism:genre"]` is set as "Research" (Editors usually don't publish in this genre so this criteria should screen out most editorial articles). There is a bug in Nature's API that sometimes there are two spaces instead of one between authors' first and last names. So I did a quick fix `author.replace('[space][space]', '[space]')` to change two spaces to one before logging the name.
 
-After iterating through all the json files using similar method as I used in my [previous post]({% post_url 2015-01-05-taste-of-open-access--part-2--top-10-used-words-in-nature-nanotechnology %}), I've got a dictionary `summaryTable` holding all the author names and their corresponding number of mentions throughout Nature Nanotechnology's publication from 2006 to 2014, like this:
+After iterating through all the json files using similar method as I used in my [previous post]({% post_url 2015-01-05-top-10-used-words-in-nature-nanotechnology %}), I've got a dictionary `summaryTable` holding all the author names and their corresponding number of mentions throughout Nature Nanotechnology's publication from 2006 to 2014, like this:
 
 {% highlight html %}
 ________Yi Cui  Charles M. Lieber  Hongjie Dai  Phaedon Avouris  Xiang Zhang  
